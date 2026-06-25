@@ -937,3 +937,18 @@ footer {
         gap: 28px;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+
+    .blob,
+    .hero-photo-ring,
+    .hero-glow {
+        animation: none !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+    }
+}
