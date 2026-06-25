@@ -1,307 +1,318 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portofolio — Khoirul Anam</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="styleL.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
 </head>
+
 <body>
 
-<!-- ═══ BACKGROUND ═══ -->
-<div class="bg-canvas" aria-hidden="true">
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-  <div class="blob blob-3"></div>
-  <div class="blob blob-4"></div>
-  <div class="blob blob-5"></div>
-</div>
-
-<!-- ═══ NAV ═══ -->
-<nav>
-  <a href="#beranda" class="nav-logo">porto<span>.</span>folio</a>
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#beranda">Beranda</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#karya">Karya</a></li>
-    <li><a href="#proyek">Proyek</a></li>
-    <li><a href="#kontak">Kontak</a></li>
-    <li><a href="index.html">ver.Normal</a></li>
-  </ul>
-  <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-
-<main>
-
-  <!-- ═══ HERO ═══ -->
-  <section id="beranda">
-    <div class="hero-photo">
-      <div class="hero-glow"></div>
-      <div class="hero-photo-ring">
-        <div class="hero-photo-inner">
-          <img src="assets/img/foto.JPG" alt="herul">
-        </div>
-      </div>
-    </div>
-    <div class="hero-text">
-      <div class="hero-badge">just an example not a real portfolio</div>
-      <h1 class="hero-name">
-        <span class="gradient-text">Khoirul Anam</span>
-      </h1>
-      <p class="hero-title">UI/UX Designer &amp; Front-End Developer</p>
-      <div class="hero-cta">
-        <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
-        <a href="#karya" class="btn btn-glass">Lihat Karya</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ ABOUT ═══ -->
-  <section id="about">
-    <p class="section-label">Tentang Saya</p>
-    <h2 class="section-title">Desainer yang suka berpikir jernih &amp; membangun hal nyata.</h2>
-    <div class="about-grid">
-      <div class="glass about-card reveal">
-        <p class="about-text">
-          Halo! Saya Herul, seorang desainer &amp; developer dengan pengalaman 4+ tahun dalam
-          merancang antarmuka digital yang intuitif dan estetis. Saya percaya bahwa desain yang
-          baik bukan hanya soal visual — tapi soal bagaimana setiap detail melayani pengguna.
-        </p>
-        <br/>
-        <p class="about-text">
-          Saya terbiasa bekerja dari tahap riset hingga produk jadi, berkolaborasi dengan tim
-          produk, dan selalu ingin tahu cara terbaik untuk menyampaikan sebuah ide lewat layar.
-        </p>
-      </div>
-      <div class="about-stats reveal" style="transition-delay:0.1s">
-        <div class="glass stat-card">
-          <div class="stat-num">4+</div>
-          <div class="stat-label">Tahun pengalaman</div>
-        </div>
-        <div class="glass stat-card">
-          <div class="stat-num">32</div>
-          <div class="stat-label">Proyek selesai</div>
-        </div>
-        <div class="glass stat-card">
-          <div class="stat-num">18</div>
-          <div class="stat-label">Klien puas</div>
-        </div>
-        <div class="glass stat-card">
-          <div class="stat-num">6</div>
-          <div class="stat-label">Penghargaan</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ SKILLS ═══ -->
-  <section id="karya">
-    <p class="section-label">Kemampuan</p>
-    <h2 class="section-title">Skill &amp; keahlian saya</h2>
-    <div class="skills-grid">
-
-      <div class="glass skill-card reveal" style="transition-delay:0.05s">
-        <div class="skill-icon">🎨</div>
-        <div class="skill-name">UI/UX Design</div>
-        <p class="skill-desc">Merancang pengalaman pengguna dari wireframe hingga prototipe interaktif di Figma.</p>
-      </div>
-
-      <div class="glass skill-card reveal" style="transition-delay:0.1s">
-        <div class="skill-icon">💻</div>
-        <div class="skill-name">Front-End Dev</div>
-        <p class="skill-desc">Membangun antarmuka responsif dengan HTML, CSS, JavaScript &amp; React.</p>
-      </div>
-
-      <div class="glass skill-card reveal" style="transition-delay:0.15s">
-        <div class="skill-icon">📱</div>
-        <div class="skill-name">Mobile Design</div>
-        <p class="skill-desc">Desain aplikasi mobile untuk iOS &amp; Android yang berfokus pada kemudahan penggunaan.</p>
-      </div>
-
-      <div class="glass skill-card reveal" style="transition-delay:0.20s">
-        <div class="skill-icon">🔍</div>
-        <div class="skill-name">User Research</div>
-        <p class="skill-desc">Riset pengguna melalui wawancara, survei, dan usability testing.</p>
-      </div>
-
-      <div class="glass skill-card reveal" style="transition-delay:0.25s">
-        <div class="skill-icon">⚙️</div>
-        <div class="skill-name">Design System</div>
-        <p class="skill-desc">Membangun komponen sistem desain yang konsisten dan skalabel.</p>
-      </div>
-
-      <div class="glass skill-card reveal" style="transition-delay:0.30s">
-        <div class="skill-icon">🚀</div>
-        <div class="skill-name">Performance</div>
-        <p class="skill-desc">Optimasi web untuk kecepatan, aksesibilitas, dan skor Core Web Vitals.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ═══ PROJECTS ═══ -->
-  <section id="proyek">
-    <p class="section-label">Portofolio</p>
-    <h2 class="section-title">Proyek pilihan</h2>
-    <div class="projects-grid">
-
-      <div class="glass project-card reveal">
-        <div class="project-thumb">
-          <!-- <img src="assets/images/project1.jpg" alt="Dashboard Analitik"> -->
-          <div class="project-thumb-placeholder" style="background:linear-gradient(135deg,rgba(124,58,237,0.3),rgba(8,145,178,0.3))">Dashboard Analitik</div>
-        </div>
-        <div class="project-body">
-          <span class="project-tag">Web App</span>
-          <p class="project-name">Dashboard Analitik</p>
-          <p class="project-desc">Aplikasi dashboard untuk visualisasi data penjualan secara real-time dengan filter interaktif.</p>
-          <a href="#" class="project-link">Lihat proyek →</a>
-        </div>
-      </div>
-
-      <div class="glass project-card reveal" style="transition-delay:0.1s">
-        <div class="project-thumb">
-          <div class="project-thumb-placeholder" style="background:linear-gradient(135deg,rgba(219,39,119,0.3),rgba(124,58,237,0.3))">Aplikasi Kesehatan</div>
-        </div>
-        <div class="project-body">
-          <span class="project-tag">Mobile</span>
-          <p class="project-name">Aplikasi Kesehatan</p>
-          <p class="project-desc">Redesign UX aplikasi kesehatan dengan peningkatan retensi pengguna sebesar 40%.</p>
-          <a href="#" class="project-link">Lihat proyek →</a>
-        </div>
-      </div>
-
-      <div class="glass project-card reveal" style="transition-delay:0.2s">
-        <div class="project-thumb">
-          <div class="project-thumb-placeholder" style="background:linear-gradient(135deg,rgba(5,150,105,0.3),rgba(8,145,178,0.3))">Brand Identity</div>
-        </div>
-        <div class="project-body">
-          <span class="project-tag">Branding</span>
-          <p class="project-name">Brand Identity UMKM</p>
-          <p class="project-desc">Merancang identitas visual lengkap untuk startup kuliner lokal dari Bandung.</p>
-          <a href="#" class="project-link">Lihat proyek →</a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ═══ CONTACT ═══ -->
-  <section id="kontak">
-    <div class="glass kontak-inner reveal">
-      <p class="section-label">Kontak</p>
-      <h2 class="section-title" style="font-size:clamp(20px,3vw,30px)">Ada proyek? Yuk ngobrol.</h2>
-      <p>Isi formulir di bawah atau hubungi saya langsung — saya biasanya membalas dalam 24 jam.</p>
-      <div class="form-group">
-        <label for="nama">Nama</label>
-        <input type="text" id="nama" placeholder="Nama lengkap Anda"/>
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="email@anda.com"/>
-      </div>
-      <div class="form-group">
-        <label for="pesan">Pesan</label>
-        <textarea id="pesan" placeholder="Ceritakan proyeknya..."></textarea>
-      </div>
-      <button class="btn btn-primary btn-full" onclick="kirimPesan()">Kirim Pesan</button>
-    </div>
-  </section>
-
-</main>
-
-<!-- ═══ FOOTER ═══ -->
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="#beranda" class="nav-logo">porto<span>.</span>folio</a>
-      <p>Membangun pengalaman digital yang bermakna, satu piksel dalam satu waktu.</p>
-      <div class="footer-socials">
-        <a href="#" class="social-btn" aria-label="LinkedIn">in</a>
-        <a href="#" class="social-btn" aria-label="GitHub">gh</a>
-        <a href="#" class="social-btn" aria-label="Instagram">ig</a>
-        <a href="#" class="social-btn" aria-label="Dribbble">dr</a>
-      </div>
-    </div>
-    <div class="footer-col">
-      <h4>Navigasi</h4>
-      <ul>
-        <li><a href="#beranda">Beranda</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#karya">Karya</a></li>
-        <li><a href="#proyek">Proyek</a></li>
-        <li><a href="#kontak">Kontak</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Kontak</h4>
-      <ul>
-        <li><a href="mailto:Herul@email.com">Herul@email.com</a></li>
-        <li><a href="tel:+628123456789">+62 812-3456-789</a></li>
-        <li><a href="#">Bandung, Jawa Barat</a></li>
-      </ul>
-    </div>
+  <!-- ═══ BACKGROUND ═══ -->
+  <div class="bg-canvas" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+    <div class="blob blob-5"></div>
   </div>
-  <div class="footer-bottom">
-    <span>© 2025 Khoirul Anam. Semua hak dilindungi.</span>
-    <span>Dibuat dengan ☕ &amp; dedikasi</span>
-  </div>
-</footer>
 
-<script>
-  // Mobile nav
-  const navToggle = document.getElementById('navToggle');
-  const navLinks  = document.getElementById('navLinks');
-  navToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', navLinks.classList.contains('open'));
-  });
-  navLinks.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => navLinks.classList.remove('open'));
-  });
+  <!-- ═══ NAV ═══ -->
+  <nav>
+    <a href="#beranda" class="nav-logo">porto<span>.</span>folio</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#karya">Karya</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+      <li><a href="index.html">ver.Normal</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
-  // Active nav
-  const allLinks = document.querySelectorAll('.nav-links a');
-  const sections = document.querySelectorAll('section[id]');
-  window.addEventListener('scroll', () => {
-    let cur = '';
-    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 90) cur = s.id; });
-    allLinks.forEach(a => {
-      a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+  <main>
+
+    <!-- ═══ HERO ═══ -->
+    <section id="beranda">
+      <div class="hero-photo">
+        <div class="hero-glow"></div>
+        <div class="hero-photo-ring"><img src="assets/img/foto.JPG" alt="herul">
+          <!-- <div class="hero-photo-inner">
+        </div> -->
+        </div>
+      </div>
+      <div class="hero-text">
+        <div class="hero-badge">just an example not a real portfolio</div>
+        <h1 class="hero-name">
+          <span class="gradient-text">Khoirul Anam</span>
+        </h1>
+        <p class="hero-title">UI/UX Designer &amp; Front-End Developer</p>
+        <div class="hero-cta">
+          <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+          <a href="#karya" class="btn btn-glass">Lihat Karya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about">
+      <p class="section-label">Tentang Saya</p>
+      <h2 class="section-title">Desainer yang suka berpikir jernih &amp; membangun hal nyata.</h2>
+      <div class="about-grid">
+        <div class="glass about-card reveal">
+          <p class="about-text">
+            Halo! Saya Herul, seorang desainer &amp; developer dengan pengalaman 4+ tahun dalam
+            merancang antarmuka digital yang intuitif dan estetis. Saya percaya bahwa desain yang
+            baik bukan hanya soal visual — tapi soal bagaimana setiap detail melayani pengguna.
+          </p>
+          <br />
+          <p class="about-text">
+            Saya terbiasa bekerja dari tahap riset hingga produk jadi, berkolaborasi dengan tim
+            produk, dan selalu ingin tahu cara terbaik untuk menyampaikan sebuah ide lewat layar.
+          </p>
+        </div>
+        <div class="about-stats reveal" style="transition-delay:0.1s">
+          <div class="glass stat-card">
+            <div class="stat-num">4+</div>
+            <div class="stat-label">Tahun pengalaman</div>
+          </div>
+          <div class="glass stat-card">
+            <div class="stat-num">32</div>
+            <div class="stat-label">Proyek selesai</div>
+          </div>
+          <div class="glass stat-card">
+            <div class="stat-num">18</div>
+            <div class="stat-label">Klien puas</div>
+          </div>
+          <div class="glass stat-card">
+            <div class="stat-num">6</div>
+            <div class="stat-label">Penghargaan</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SKILLS ═══ -->
+    <section id="karya">
+      <p class="section-label">Kemampuan</p>
+      <h2 class="section-title">Skill &amp; keahlian saya</h2>
+      <div class="skills-grid">
+
+        <div class="glass skill-card reveal" style="transition-delay:0.05s">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-name">UI/UX Design</div>
+          <p class="skill-desc">Merancang pengalaman pengguna dari wireframe hingga prototipe interaktif di Figma.</p>
+        </div>
+
+        <div class="glass skill-card reveal" style="transition-delay:0.1s">
+          <div class="skill-icon">💻</div>
+          <div class="skill-name">Front-End Dev</div>
+          <p class="skill-desc">Membangun antarmuka responsif dengan HTML, CSS, JavaScript &amp; React.</p>
+        </div>
+
+        <div class="glass skill-card reveal" style="transition-delay:0.15s">
+          <div class="skill-icon">📱</div>
+          <div class="skill-name">Mobile Design</div>
+          <p class="skill-desc">Desain aplikasi mobile untuk iOS &amp; Android yang berfokus pada kemudahan penggunaan.
+          </p>
+        </div>
+
+        <div class="glass skill-card reveal" style="transition-delay:0.20s">
+          <div class="skill-icon">🔍</div>
+          <div class="skill-name">User Research</div>
+          <p class="skill-desc">Riset pengguna melalui wawancara, survei, dan usability testing.</p>
+        </div>
+
+        <div class="glass skill-card reveal" style="transition-delay:0.25s">
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-name">Design System</div>
+          <p class="skill-desc">Membangun komponen sistem desain yang konsisten dan skalabel.</p>
+        </div>
+
+        <div class="glass skill-card reveal" style="transition-delay:0.30s">
+          <div class="skill-icon">🚀</div>
+          <div class="skill-name">Performance</div>
+          <p class="skill-desc">Optimasi web untuk kecepatan, aksesibilitas, dan skor Core Web Vitals.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ PROJECTS ═══ -->
+    <section id="proyek">
+      <p class="section-label">Portofolio</p>
+      <h2 class="section-title">Proyek pilihan</h2>
+      <div class="projects-grid">
+
+        <div class="glass project-card reveal">
+          <div class="project-thumb">
+            <!-- <img src="assets/images/project1.jpg" alt="Dashboard Analitik"> -->
+            <div class="project-thumb-placeholder"
+              style="background:linear-gradient(135deg,rgba(124,58,237,0.3),rgba(8,145,178,0.3))">Dashboard Analitik
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Web App</span>
+            <p class="project-name">Dashboard Analitik</p>
+            <p class="project-desc">Aplikasi dashboard untuk visualisasi data penjualan secara real-time dengan filter
+              interaktif.</p>
+            <a href="#" class="project-link">Lihat proyek →</a>
+          </div>
+        </div>
+
+        <div class="glass project-card reveal" style="transition-delay:0.1s">
+          <div class="project-thumb">
+            <div class="project-thumb-placeholder"
+              style="background:linear-gradient(135deg,rgba(219,39,119,0.3),rgba(124,58,237,0.3))">Aplikasi Kesehatan
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Mobile</span>
+            <p class="project-name">Aplikasi Kesehatan</p>
+            <p class="project-desc">Redesign UX aplikasi kesehatan dengan peningkatan retensi pengguna sebesar 40%.</p>
+            <a href="#" class="project-link">Lihat proyek →</a>
+          </div>
+        </div>
+
+        <div class="glass project-card reveal" style="transition-delay:0.2s">
+          <div class="project-thumb">
+            <div class="project-thumb-placeholder"
+              style="background:linear-gradient(135deg,rgba(5,150,105,0.3),rgba(8,145,178,0.3))">Brand Identity</div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Branding</span>
+            <p class="project-name">Brand Identity UMKM</p>
+            <p class="project-desc">Merancang identitas visual lengkap untuk startup kuliner lokal dari Bandung.</p>
+            <a href="#" class="project-link">Lihat proyek →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="kontak">
+      <div class="glass kontak-inner reveal">
+        <p class="section-label">Kontak</p>
+        <h2 class="section-title" style="font-size:clamp(20px,3vw,30px)">Ada proyek? Yuk ngobrol.</h2>
+        <p>Isi formulir di bawah atau hubungi saya langsung — saya biasanya membalas dalam 24 jam.</p>
+        <div class="form-group">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" placeholder="Nama lengkap Anda" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="email@anda.com" />
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" placeholder="Ceritakan proyeknya..."></textarea>
+        </div>
+        <button class="btn btn-primary btn-full" onclick="kirimPesan()">Kirim Pesan</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#beranda" class="nav-logo">porto<span>.</span>folio</a>
+        <p>Membangun pengalaman digital yang bermakna, satu piksel dalam satu waktu.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn" aria-label="LinkedIn">in</a>
+          <a href="#" class="social-btn" aria-label="GitHub">gh</a>
+          <a href="#" class="social-btn" aria-label="Instagram">ig</a>
+          <a href="#" class="social-btn" aria-label="Dribbble">dr</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#karya">Karya</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontak</h4>
+        <ul>
+          <li><a href="mailto:Herul@email.com">Herul@email.com</a></li>
+          <li><a href="tel:+628123456789">+62 812-3456-789</a></li>
+          <li><a href="#">Bandung, Jawa Barat</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Khoirul Anam. Semua hak dilindungi.</span>
+      <span>Dibuat dengan ☕ &amp; dedikasi</span>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', navLinks.classList.contains('open'));
     });
-  }, { passive: true });
-
-  // Scroll reveal
-  const reveals = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
-  }, { threshold: 0.08 });
-  reveals.forEach(el => io.observe(el));
-
-  // Contact
-  function kirimPesan() {
-    const nama  = document.getElementById('nama').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const pesan = document.getElementById('pesan').value.trim();
-    if (!nama || !email || !pesan) { alert('Mohon lengkapi semua kolom.'); return; }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { alert('Format email tidak valid.'); return; }
-    alert(`Terima kasih, ${nama}! Pesan terkirim — saya akan menghubungi ${email} segera.`);
-    ['nama','email','pesan'].forEach(id => document.getElementById(id).value = '');
-  }
-
-  // Parallax blobs subtle
-  window.addEventListener('mousemove', (e) => {
-    const x = (e.clientX / window.innerWidth  - 0.5) * 20;
-    const y = (e.clientY / window.innerHeight - 0.5) * 20;
-    document.querySelectorAll('.blob').forEach((b, i) => {
-      const d = (i + 1) * 0.4;
-      b.style.transform += ` translate(${x * d}px, ${y * d}px)`;
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => navLinks.classList.remove('open'));
     });
-  }, { passive: true });
-</script>
+
+    // Active nav
+    const allLinks = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      let cur = '';
+      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 90) cur = s.id; });
+      allLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+      });
+    }, { passive: true });
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.08 });
+    reveals.forEach(el => io.observe(el));
+
+    // Contact
+    function kirimPesan() {
+      const nama = document.getElementById('nama').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const pesan = document.getElementById('pesan').value.trim();
+      if (!nama || !email || !pesan) { alert('Mohon lengkapi semua kolom.'); return; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { alert('Format email tidak valid.'); return; }
+      alert(`Terima kasih, ${nama}! Pesan terkirim — saya akan menghubungi ${email} segera.`);
+      ['nama', 'email', 'pesan'].forEach(id => document.getElementById(id).value = '');
+    }
+
+    // Parallax blobs subtle
+    window.addEventListener('mousemove', (e) => {
+      const x = (e.clientX / window.innerWidth - 0.5) * 20;
+      const y = (e.clientY / window.innerHeight - 0.5) * 20;
+      document.querySelectorAll('.blob').forEach((b, i) => {
+        const d = (i + 1) * 0.4;
+        b.style.transform += ` translate(${x * d}px, ${y * d}px)`;
+      });
+    }, { passive: true });
+  </script>
 </body>
+
 </html>
