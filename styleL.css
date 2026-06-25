@@ -369,7 +369,7 @@ section {
     color: var(--accent);
     border: 3px solid #080b14;
     flex-shrink: 0;
-    animation: counterSpin 4s linear infinite;
+    /* animation: counterSpin 4s linear infinite; */
 }
 
 @keyframes counterSpin {
