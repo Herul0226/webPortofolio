@@ -382,8 +382,8 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* foto ikut counter-rotate sehingga wajah selalu tegak */
-    animation: counterSpin 4s linear infinite;
+    /* foto ikut counter-rotate sehingga wajah selalu tegak
+    animation: counterSpin 4s linear infinite; */
     border-radius: 50%;
 }
 
