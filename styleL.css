@@ -341,7 +341,6 @@ section {
             var(--accent),
             transparent 60%,
             var(--accent));
-    animation: spinRing 4s linear infinite;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -936,20 +935,5 @@ footer {
     .footer-top {
         flex-direction: column;
         gap: 28px;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-    .blob,
-    .hero-photo-ring,
-    .hero-glow {
-        animation: none !important;
-    }
-
-    *,
-    *::before,
-    *::after {
-        transition: none !important;
     }
 }
